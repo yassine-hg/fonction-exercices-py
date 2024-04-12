@@ -1,0 +1,11 @@
+def count_vow(string):
+    vowels ="aeiouAEIOU"
+    count = 0
+    for char in string:
+        if char in vowels:
+            count += 1
+    return count
+
+x = input("enter a name : ")
+voww = count_vow(x)
+print(voww)
