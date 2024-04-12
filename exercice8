@@ -1,0 +1,10 @@
+def max_list(num):
+    max = num[0]
+    for nu in num:
+        if nu > max:
+            max = nu
+    return max
+
+list = [1,2,5,3,65,1,58]
+here = max_list(list)
+print(here)
