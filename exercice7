@@ -1,0 +1,7 @@
+def radious(circle):
+    rad = 3.14 * circle**2
+    return rad
+
+x = float(input("enter the radious: "))
+radiou = radious(x)
+print(radiou)
