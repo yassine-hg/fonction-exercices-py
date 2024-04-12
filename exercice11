@@ -1,0 +1,9 @@
+def power(x , y):
+    pow = x ** y 
+    return pow
+
+base = int(input("Enter the base : "))
+exponent = int(input("Enter the exponent : "))
+powers = power(base , exponent)
+print(powers)
+    
