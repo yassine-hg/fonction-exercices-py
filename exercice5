@@ -1,0 +1,9 @@
+def palindrome(string):
+    if string[0] == string[-1]:
+        return "plindrome"
+    else:
+        return "not plindrome"
+
+put = str(input("enter a name: "))
+palindrome_put = palindrome(put)
+print(palindrome_put)
