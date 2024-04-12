@@ -1,0 +1,10 @@
+def average_list(list):
+    sum = 0
+    for i in list:
+        sum += i
+    average = sum / len(list)
+    return average
+
+lista = [5,4,8,7,9,3]
+avr = average_list(lista)
+print(avr)
