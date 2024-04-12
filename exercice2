@@ -1,0 +1,9 @@
+def even_odd(x):
+    if x % 2 == 0:
+        return "odd"
+    else:
+        return "even"
+
+y = int(input("enter un nombre: "))
+p = even_odd(y)
+print(p)
