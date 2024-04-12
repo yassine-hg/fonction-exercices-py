@@ -1,0 +1,9 @@
+def factorielle(num):
+    sum = 1
+    for i in range(1 , num+1):
+        sum *= i
+    return sum
+
+x = int(input("enter un nombre : "))
+fact = factorielle(x)
+print(fact)
