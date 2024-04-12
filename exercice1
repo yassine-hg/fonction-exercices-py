@@ -1,0 +1,9 @@
+def sum(a , b):
+    number = a + b
+    return number
+
+x = int(input("enter le premier nombre: "))
+y = int(input("enter le deuxieme nombre: "))
+
+sup = sum(x , y)
+print(sup)
